@@ -1,0 +1,16 @@
+{
+  "name": "formulir.project",
+  "version": "1.0.0",
+  "description": "This project uses the community-maintained `vercel-php` runtime. Vercel sends requests to `api/index.php`, which loads the application entrypoint at `app/index.php`. The existing Docker setup remains available for local development and other hosting providers.",
+  "main": "index.js",
+  "scripts": {
+    "tailwind:build": "tailwindcss -i ./resources/bootstrap/index.css -o ./public/styles.css --minify",
+    "tailwind:watch": "tailwindcss -i ./resources/bootstrap/index.css -o ./public/styles.css --watch"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "tailwindcss": "^4.3.3"
+  }
+}

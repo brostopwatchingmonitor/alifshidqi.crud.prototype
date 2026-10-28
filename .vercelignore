@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Docker
+Dockerfile
+docker-compose*
+compose.y*ml
+.dockerignore
+
+# Git
+.git/
+.gitignore
+
+# Database
+database/
+
+# Build output
+public/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# READMEs
+README.Docker.md
+README.Vercel.md
